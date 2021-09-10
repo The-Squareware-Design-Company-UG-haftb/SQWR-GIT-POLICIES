@@ -6,3 +6,13 @@ With platform specific installers for Git, GitHub also provides the ease of stay
 ### [GitHub for Mac](https://mac.github.com) 
 ### For Linux and Solaris platforms, the latest release is available on the official Git web site. 
 ### [Git for All Platforms](https://git-scm.com)
+
+## SETUP
+
+- Configuring user information used across all local repositories
+<code>git config --global user.name “[firstname lastname]”</code>
+- set a name that is identifiable for credit when review version history
+<code>git config --global user.email “[valid-email]”</code>
+- set an email address that will be associated with each history marker
+<code>git config --global color.ui auto</code>
+- set automatic command line coloring for Git for easy reviewing
