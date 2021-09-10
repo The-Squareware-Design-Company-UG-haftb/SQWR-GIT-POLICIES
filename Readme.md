@@ -10,9 +10,9 @@ With platform specific installers for Git, GitHub also provides the ease of stay
 ## SETUP
 
 - Configuring user information used across all local repositories
-<code>git config --global user.name “[firstname lastname]”</code>
+- <code>git config --global user.name “[firstname lastname]”</code>
 - set a name that is identifiable for credit when review version history
-<code>git config --global user.email “[valid-email]”</code>
+- <code>git config --global user.email “[valid-email]”</code>
 - set an email address that will be associated with each history marker
-<code>git config --global color.ui auto</code>
+- <code>git config --global color.ui auto</code>
 - set automatic command line coloring for Git for easy reviewing
