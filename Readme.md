@@ -121,3 +121,135 @@ pattern*/</code>
 - write working from top of stash stack
 - <code>git stash drop</code>
 - discard the changes from top of stash stack
+
+## Branching
+A branching strategy is a convention or a set of rules that specify when branches get created.
+It helps teams and developers by describing the naming guidelines of branches and elaborates on what use the branches should have, and so on.
+With a lack of appropriate naming conventions, the code maintenance team suffers numerous confusions and complications.
+[Git](https://codingsight.com/git-branching-naming-convention-best-practices/?ref=hackernoon.com)  branching naming convention supports the organic growth of a codebase in a systematic way. It helps in separating the work strategically.
+## The two broad categories of Git branches
+
+**1. Regular Branches**
+Available permanently in the repository, the naming convention of regular branches is easy and straightforward.
+
+**Dev**
+Dev, the main development branch, restricts developers from adding any changes in the master branch directly. Before merging to the master, changes made in the dev branch undergo reviews and tests.
+
+
+**Master**
+
+
+The Master branch is the default branch available in the Git repository. Team members need to keep the master branch stable and updated. It usually is stable and doesn't allow direct check-in. Merging is possible only after code review.
+
+
+**QA or test branch**
+
+
+This branch holds the QA codes and automation testing of the implemented changes. It ensures a stable codebase for the production environment through the QA testing process.
+
+
+**2. Temporary Git branches**
+
+
+Team members can create and delete these branches whenever it is required.
+
+-   Own name Branch 
+-   Bug Fix
+-   Hot Fix
+-   Feature Branches
+
+There are a large number of recommended conventions and formats, following which could be a challenging task.
+
+
+
+## The best practices of the Git branch naming convention
+
+**1. Starting branch name with a category word**
+
+
+
+One of the best methods to improve efficiency is by adding a word that categorizes the branch. The general idea is to use short words. The word selection could be anything that suits your working system.
+
+Use category words such as:
+
+1.  WIP - Work in progress and needs your attention.
+2.  Bug - A bug or an error that needs fixing promptly.
+
+With the help of the category word, it is effortless to identify the purpose of the  [Git branch](https://hackernoon.com/git-branches-vgaa3ypm?ref=hackernoon.com)  and attend to it.
+
+
+**2. Using unique issue tracker IDs in branch names**
+
+
+Prefixes such as; hotfix, feature, chore, or any other variant to categorize a task, increase the work requiring more decision-making while naming.
+
+
+With unique issue tracker IDs, you are essentially marking the task's category in the tracker and adding many useful contexts.
+
+
+Developers mostly work on several issues at a given time, and an issue tracker helps to connect the working branch with relevant tasks. It makes tracking team progress very easy.
+
+
+
+Using an external issue tracking ID in the branch name can facilitate tracking the progress from external systems.
+
+
+**3. Using hyphen or slash separators**
+
+
+The preference between a hyphen, slash, or underscore separator is based on you and your team's choice. The idea is to keep it tightly consistent.
+
+
+
+Without the separators, the names become more challenging to read, creating confusion for the team.
+
+
+Using separators such as underscores, you can improve the readability and make the name more comfortable to manage.
+
+
+
+Separators are especially more significant if you are dealing with a vast number of branches.
+
+
+**4. Using author name in Git branch**
+
+
+Numerous companies use this technique of adding the author's name to the branch names.
+
+
+This method helps to track the work of different developers. With further requirements, progressive additions are also possible.
+
+> Example - name_feature_new-experimental-changes
+
+**5. Avoid using just numerals**
+
+
+Using only numbers in the branch name's issue ID can lead to more confusion for the team.
+
+
+Such confusion during the merging process of Git branches may lead to a lot of mistakes.
+
+
+**6. Avoid simultaneous naming convention**
+
+
+Blending or combining Git branch naming conventions only leads to complications and makes the process prone to errors. Consistency is a critical aspect, and the team should maintain the decided conventions.
+
+
+**7. Avoid long names**
+
+
+
+Precision is the crucial regard of Git branch naming. The name needs to be informative and short.
+
+
+Long detailed names only lead to confusion and affect efficiency.
+
+
+
+> Instead of, wip_login_module_which_will_used_in_the_public_website, you can opt for wip_feature_login_module.
+
+The practices for Git branching naming are effective only upon the commitment of proper application. The critical element is that the team stays on the same page and remains consistent everywhere.
+
+
+With the appropriate usage of the conventions, you and the team can remarkably improve work efficiency and flow.
