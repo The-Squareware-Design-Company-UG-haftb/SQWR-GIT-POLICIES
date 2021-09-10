@@ -16,3 +16,27 @@ With platform specific installers for Git, GitHub also provides the ease of stay
 - set an email address that will be associated with each history marker
 - <code>git config --global color.ui auto</code>
 - set automatic command line coloring for Git for easy reviewing
+
+## SETUP & INIT
+
+- Configuring user information, initializing and cloning repositories
+- <code>git init</code>
+- initialize an existing directory as a Git repository
+- <code>git clone [url]</code>
+- retrieve an entire repository from a hosted location via URL
+
+## STAGE & SNAPSHOT
+
+- Working with snapshots and the Git staging area
+- <code>git status</code>
+- show modified files in working directory, staged for your next commit
+- <code>git add [file]</code>
+- add a file as it looks now to your next commit (stage)
+- <code>git reset [file]</code>
+- unstage a file while retaining the changes in working directory
+- <code>git diff</code>
+- diff of what is changed but not staged
+- <code>git diff --staged</code>
+- diff of what is staged but not yet commited
+- <code>git commit -m “[descriptive message]”</code>
+- commit your staged content as a new commit snapshot
